@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { fetchDataFromService1 } from '../services/apiService1'; // Import the first service API call
 import { fetchDataFromService2 } from '../services/apiService2'; // Import the second service API call
 
-const YourComponent = () => {
+const MainForm = () => {
   const [data1, setData1] = useState(null);
   const [data2, setData2] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -42,4 +42,4 @@ const YourComponent = () => {
   );
 };
 
-export default YourComponent;
+export default MainForm;
